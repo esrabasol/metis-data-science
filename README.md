@@ -24,7 +24,7 @@ The data consists of 2 csv files:
 			Last : UpdatedDate when the app was last updated on Play Store (as when scraped)
 			Current : VerCurrent version of the app available on Play Store (as when scraped)
 			Android Ver : Min required Android version (as when scraped)
-  	• googleplaystore_user_reviews.csv : This file contains the first 'most relevant' 100 reviews for each app. Each review text/comment has been pre-processed and attributed with 3 new features - Sentiment, Sentiment Polarity and Sentiment Subjectivity.
+		• googleplaystore_user_reviews.csv : This file contains the first 'most relevant' 100 reviews for each app. Each review text/comment has been pre-processed and attributed with 3 new features - Sentiment, Sentiment Polarity and Sentiment Subjectivity.
 			App: Name of app
 			Translated_Review: User review (Preprocessed and translated to English)
 			Sentiment: Positive/Negative/Neutral (Preprocessed)
@@ -33,9 +33,6 @@ The data consists of 2 csv files:
 
 4. Why did you choose this topic?
 It gives opportunities to:
-	• Analyze deeply the Android market and detect potential new apps. 
-	• Apply various prediction methods on the data and compare them.
-	• Reprocess user reviews at the user review file and try to increase the review sentiment info. (if I have time)
-
-
-
+		• Analyze deeply the Android market and detect potential new apps. 
+		• Apply various prediction methods on the data and compare them.
+		• Reprocess user reviews at the user review file and try to increase the review sentiment info. (if I have time)
